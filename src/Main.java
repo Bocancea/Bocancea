@@ -7,7 +7,7 @@ public class Main {
         String text = scanner.nextLine();
      String[] words = text.split(" ");
 for (int i=0; i< words.length; i++)
- System.out.print(words[i].charAt(0));
+ System.out.println(words[i].charAt(0));
 
 
     }
