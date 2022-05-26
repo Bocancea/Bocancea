@@ -5,13 +5,9 @@ public class Main {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         String text = scanner.nextLine();
-        String[] words = text.split(" ");
-        for (int i = 0; i < words.length; i++)
-            System.out.println(words[i].charAt(0));
+        int l1 = scanner.nextInt();
+        int l2 = scanner.nextInt();
+        System.out.println(text.substring(l1, l2 + 1));
     }
 
 }
-
-
-
-
